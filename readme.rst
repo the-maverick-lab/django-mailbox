@@ -1,10 +1,9 @@
 .. image:: https://github.com/fleur/django-mailbox/actions/workflows/ci.yaml/badge.svg
-    :target: https://github.com/fleur/django-mailbox/commit/$GITHUB_SHA/checks
 
-.. image:: https://badge.fury.io/py/django-mailbox.png
-    :target: http://badge.fury.io/py/django-mailbox
+.. image:: https://badge.fury.io/py/django-mailbox.svg
+    :target: https://badge.fury.io/py/django-mailbox
 
-.. image:: https://pypip.in/d/django-mailbox/badge.png
+.. image:: https://img.shields.io/pypi/dm/django-mailbox
     :target: https://pypi.python.org/pypi/django-mailbox
 
 
@@ -20,8 +19,8 @@ or -- if you're in a hurry -- by using a signal receiver.
   `ReadTheDocs <http://django-mailbox.readthedocs.org/>`_.
 - Please post issues on
   `Github <http://github.com/coddingtonbear/django-mailbox/issues>`_.
-- Test status available on
-  `Travis-CI <https://travis-ci.org/coddingtonbear/django-mailbox>`_.
+- Test status available under actions tab
+  `Actions <https://github.com/coddingtonbear/django-mailbox/actions>`_.
 
 
 .. image:: https://badges.gitter.im/Join%20Chat.svg
