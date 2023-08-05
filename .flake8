@@ -1,3 +1,4 @@
 [flake8]
 exclude = django_mailbox/migrations, django_mailbox/south_migrations
-ignore = E501,W503,W504 # line too long & line break before and after binary operator
+# line too long & line break before and after binary operator
+extend-ignore = E501,W503,W504

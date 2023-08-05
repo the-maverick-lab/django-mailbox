@@ -480,7 +480,6 @@ class Mailbox(models.Model):
                     message.from_address
                 )
 
-
     def __str__(self):
         return self.name
 

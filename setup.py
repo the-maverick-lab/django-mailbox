@@ -32,7 +32,7 @@ setup(
         'gmail-oauth2': gmail_oauth2_require,
         'office365-oauth2': office365_oauth2_require
     },
-    python_requires=">=3",
+    python_requires=">=3.7",
     classifiers=[
         'Framework :: Django',
         'Intended Audience :: Developers',
@@ -50,9 +50,6 @@ setup(
         'Framework :: Django :: 4.1',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
@@ -65,7 +62,4 @@ setup(
     ],
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[
-        'six>=1.6.1'
-    ]
 )
